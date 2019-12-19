@@ -1,0 +1,62 @@
+{
+    "name": "Datameer",
+    "description": "Datameer delivers an agile, unified & governed approach to managing data for analytics. Datameer???s modern analytic data platform transforms complex, diverse data into a governed enterprise-wide network of data pipelines that feed your analytics initiat...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/176-datameer.jpg",
+    "tags": [
+        "analysis",
+        "api not found",
+        "data",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/datameer\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Datameer",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/176-datameer.jpg",
+            "humanURL": "http:\/\/www.datameer.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/datameer-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.datameer.com\/blog\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/datameer"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/datameer"
+        },
+        {
+            "type": "Email",
+            "url": "privacy@datameer.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/datameer"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/datameer"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.datameer.com\/"
+        }
+    ]
+}
