@@ -1,8 +1,26 @@
 aid: datameer
 name: Datameer
-description: 'Datameer is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Datameer is a business analytics and data transformation platform purpose-built to run
+  natively inside Snowflake. It lets data engineers, warehouse administrators, and business
+  users collaboratively prep, govern, and deliver analytics-ready data through visual
+  no-code/low-code workflows, SQL, version control, data-quality checks, pipeline automation,
+  cost monitoring, and AI-assisted documentation. Datameer operates as a SaaS application
+  layered over Snowflake rather than exposing a public developer REST API; this profile,
+  originally surfaced as a Kleiner Perkins portfolio lead, has been enriched from the
+  company's public web surface (documentation, trust center, legal, and blog).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.datameer.com/wp-content/uploads/2021/08/Datameer-Logo-Navy-Blue-with-Green-Dot.svg
 url: https://raw.githubusercontent.com/api-evangelist/datameer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,48 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Analytics
+- Data
+- Data Transformation
+- Snowflake
+- Business Intelligence
+- Data Engineering
+- Data Quality
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.datameer.com/
+- type: Documentation
+  url: https://documentation.datameer.com/datameer/
+- type: GettingStarted
+  url: https://quickstarts.snowflake.com/guide/getting_started_datameer/
+- type: SignUp
+  url: https://www.datameer.com/get-started/
+- type: Pricing
+  url: https://www.datameer.com/pricing/
+- type: Support
+  url: https://help.datameer.com/hc/en-us
+- type: Blog
+  url: https://www.datameer.com/blog/
+- type: TermsOfService
+  url: https://www.datameer.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.datameer.com/privacy-policy/
+- type: TrustCenter
+  url: https://trust.datameer.cloud/
+- type: DomainSecurity
+  url: security/datameer-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
