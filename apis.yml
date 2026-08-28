@@ -9,6 +9,17 @@ description: >-
   layered over Snowflake rather than exposing a public developer REST API; this profile,
   originally surfaced as a Kleiner Perkins portfolio lead, has been enriched from the
   company's public web surface (documentation, trust center, legal, and blog).
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
